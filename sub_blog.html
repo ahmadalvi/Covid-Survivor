@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit a Blog</title>
+    <link rel="stylesheet" href="css/sub_blog.css">
+</head>
+<body>
+
+    <h1>Share Your Story</h1>
+
+    <nav>
+        <ul>
+            <li><a href = "index.html">Home</a></li>
+            <li><a href = "blog.html">Blog</a></li>
+            <li><a href = "ontario.html">COVID-19 in Ontario</a></li>
+            <li><a href = "restriction.html">Restriction</a></li>
+            <li><a href = "tips.html">Tips & Tricks</a></li>
+            <li><a href = "sub_blog.html">Share Your Story</a></li>
+            <li><a href = "chat.html">Talk With Others</a></li>
+        </ul>
+    </nav>
+
+    <br><br><br><br>
+
+    <div class="container">
+        <form>
+            <div class="field" tabindex="1">
+                <label for="username">
+                    <i class="far fa-user"></i>Your Name<br>
+                </label>
+                <input name="username" type="text" placeholder="e.g. john doe" required>
+            </div>
+            <br><br>
+            <div class="field" tabindex="2">
+                <label for="email">
+                    <i class="far fa-envelope"></i>Your Email<br> 
+                </label>
+                <input name="email" type="text" placeholder="email@domain.com" required>
+            </div>
+            <br><br>
+            <div class="field" tabindex="4">
+                <label for="message">
+                    <i class="far fa-edit"></i>Your Phone Number<br>
+                </label>
+                <input id="phone" name="phone" type="text" required>
+            </div>
+            <br><br>
+            <div class="field" tabindex="3">
+                <label for="message">
+                    <i class="far fa-edit"></i>Your Message<br>
+                </label>
+                <input id="story" name="story" type="text" required>
+            </div>
+            
+            <br><br>
+            <button type="reset">Submit</button>
+            
+        </form>
+    </div>
+    
+
+    <!-- <form>
+        <label for="fname">First name: </label><br>
+        <input type="text" id="fname" name="fname" value="First Name"><br>
+        <label for="lname">Last name: </label><br>
+        <input type="text" id="lname" name="lname" value="Last Name"><br>
+        <label for="email">Email Address: </label>
+        <input type="text" id='email' name ='email' value='Email'><br><br>
+        <label for="story">Story: </label>
+        <input type="text" id='story' name ='Story' value='Story'><br><br>
+        <input type="submit" value="Submit">
+    </form> -->
+
+</body>
+</html>
